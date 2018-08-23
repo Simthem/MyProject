@@ -12,7 +12,7 @@
 ## git remote add origin <source_de_destination>
 ## git push -u origin master
 
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
 ## git clone <source> 			// récupération du dossier de travail
 ## git add . 				// ajouter tout un dossier
