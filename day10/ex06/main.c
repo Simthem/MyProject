@@ -27,6 +27,14 @@ int		ft_result(int *p1, char *p2, int *p3, int result)
 	return (result);
 }
 
+void	ft_mod_div(char *argv)
+{
+	if (*argv == '/')
+		ft_putstr("Stop : division by zero\n");
+	if (*argv == '%')
+		ft_putstr("Stop : modulo by zero\n");
+}
+
 int		main(int argc, char *argv[])
 {
 	int *p1;
@@ -47,7 +55,7 @@ int		main(int argc, char *argv[])
 	{
 		if ((*argv[2] == '/' || *argv[2] == '%') && *p3 == 0)
 		{
-			ft_putstr("error : operand with zero not authorized\n");
+			ft_mod_div(argv[2]);
 			return (0);
 		}
 		ft_putnbr(ft_result(p1, argv[2], p3, *p));
