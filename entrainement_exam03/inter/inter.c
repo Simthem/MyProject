@@ -66,13 +66,10 @@ int		main(int argc, char *argv[])
 			j = 0;
 			while (argv[2][j])
 			{
-				if (argv[1][i] == argv[2][j])
+				if (argv[1][i] == argv[2][j] && ft_verif(dest, &argv[2][j]))
 				{
-					if (ft_verif(dest, &argv[2][j]))
-					{
-						dest[k] = argv[2][j];
-						k++;
-					}
+					dest[k] = argv[2][j];
+					k++;
 				}
 				j++;
 			}
