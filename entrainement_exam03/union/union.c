@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   inter.c                                            :+:      :+:    :+:   */
+/*   union.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sithemio <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/16 18:38:38 by sithemio          #+#    #+#             */
-/*   Updated: 2019/04/17 14:24:04 by sithemio         ###   ########.fr       */
+/*   Created: 2019/04/16 22:02:50 by sithemio          #+#    #+#             */
+/*   Updated: 2019/04/17 14:19:41 by sithemio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,36 +38,40 @@ int		ft_verif(char *dest, char *argv)
 	return (1);
 }
 
-// a revoir, main de 28 lignes mais passe en exam
+void	ft_first_verif(char *dest, char *argv[], int *k, int count)
+{
+	int i;
+
+	i = 0;
+	while (argv[count][i])
+	{
+		if (ft_verif(dest, &argv[count][i]))
+		{
+			dest[*k] = argv[count][i];
+			(*k)++;
+		}
+		i++;
+	}
+}
 
 int		main(int argc, char *argv[])
 {
-	int		i;
+	int		count;
 	int		j;
-	int		k;
-	char dest[26];
+	int		*k;
+	char	dest[26];
 
-	i = 0;
-	k = 0;
+	count = 1;
+	j = 0;
+	k = &j;
 	if (argc == 3)
 	{
-		while (argv[1][i])
-		{
-			j = 0;
-			while (argv[2][j])
-			{
-				if (argv[1][i] == argv[2][j] && ft_verif(dest, &argv[2][j]))
-				{
-					dest[k] = argv[2][j];
-					k++;
-				}
-				j++;
-			}
-			i++;
-		}
-		dest[k] = '\0';
+		ft_first_verif(dest, argv, k, count);
+		count++;
+		ft_first_verif(dest, argv, k, count);
 		ft_putstr(dest);
 	}
+	dest[*k] = '\0';
 	write(1, "\n", 1);
 	return (0);
 }
