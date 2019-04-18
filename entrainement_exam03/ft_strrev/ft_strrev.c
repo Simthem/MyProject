@@ -6,7 +6,7 @@
 /*   By: sithemio <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/17 22:05:36 by sithemio          #+#    #+#             */
-/*   Updated: 2019/04/17 23:24:53 by sithemio         ###   ########.fr       */
+/*   Updated: 2019/04/18 00:59:45 by sithemio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strrev(char *str)
 {
-	int	i;
-	int j;
-	int temp;
+	int		i;
+	int		j;
+	char	temp;
 
 	i = 0;
 	j = 0;
