@@ -20,18 +20,15 @@ int		ft_ultimate_range(int **range, int min, int max)
 	i = 0;
 	if (min >= max)
 	{
-		*range = tab;
-		tab = 0;
-		return (NULL);
+		*range = NULL;
+		return (0);
 	}
 	if (!(tab = (int *)malloc(sizeof(*tab) * (max - min))))
 		return (0);
-	while (min < max)
+	while (i < max - min)
 	{
-		tab[i] = min;
-		min++;
+		(*range)[i] = min + i;
 		i++;
 	}
-	*range = tab;
 	return (i);
 }

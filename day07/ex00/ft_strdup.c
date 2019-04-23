@@ -12,23 +12,33 @@
 
 #include <stdlib.h>
 
+char	*ft_strcpy(char *dest, char *src)
+{
+	int i;
+
+	i = 0;
+	while (src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
+}
+
 char	*ft_strdup(char *src)
 {
-	int		i;
-	int		j;
+	int	i;
+	int	j;
 	char	*str;
 
 	i = 0;
 	j = 0;
-	if (src[i] == '\0')
-		return (NULL);
 	while (src[i])
 		i++;
 	str = (char *)malloc(sizeof(*str) * (i + 1));
-	while (j <= i)
-	{
-		str[j] = src[j];
-		j++;
-	}
-	return (str);
+	if (str[i] == '\0')
+		return (str);
+	else
+		return (ft_strdup(str, dest));
 }

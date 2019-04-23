@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include <stdio.h>
 
 int		ft_number_char_params(int argc, char *argv[])
 {
@@ -52,9 +53,12 @@ int		ft_strparams(char *str, int argc, char *argv[], int k)
 			k++;
 			j++;
 		}
-		if (i != argc)
-			str[k] = "\n";
-		k++;
+		if (i != argc - 1)
+		{
+			str[k] = '\\';
+			str[k + 1] = 'n';
+		}
+		k += 2;
 		i++;
 	}
 	return (k);
@@ -63,11 +67,15 @@ int		ft_strparams(char *str, int argc, char *argv[], int k)
 char	*ft_concat_params(int argc, char **argv)
 {
 	char	*str;
-	int		count;
-	int		k;
-	int		*p;
+	int	count;
+	int	k;
+	int	*p;
+	int	var;
 
 	k = 0;
+	var = 0;
+	p = &var;
+	str = NULL;
 	count = ft_number_char_params(argc, argv);
 	if (count != 0)
 	{
@@ -77,4 +85,11 @@ char	*ft_concat_params(int argc, char **argv)
 		str[*p] = '\0';
 	}
 	return (str);
+}
+
+int	main(int argc, char *argv[])
+{
+	if (argc >= 2)
+		printf("%s", ft_concat_params(argc, argv));
+	return (0);
 }
