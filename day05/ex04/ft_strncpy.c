@@ -10,27 +10,30 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
-	unsigned int j;
 
 	i = 0;
-	j = 0;
-	while (src[i] && dest[j])
+	while (i < n && src[i])
 	{
+		dest[i] = src[i];
 		i++;
-		j++;
 	}
-	if (j >= i)
+	while (i < n)
 	{
-		i = 0;
-		while (src[i] && i < n)
-		{
-			dest[i] = src[i];
-			i++;
-		}
+		dest[i] = '\0';
+		i++;
 	}
-	dest[i] = '\0';
 	return (dest);
+}
+
+int	main(void)
+{
+	char src[30] = "I test a strncpy,";
+	char dest[30] = "";
+	printf("%s\n", ft_strncpy(dest, src, 11));
+	return (0);
 }
