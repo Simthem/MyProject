@@ -10,20 +10,30 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <stdlib.h>
+
 int		ft_sqrt(int nb)
 {
 	int temp;
 
-	temp = 1;
-	if (nb <= 0 || nb == 2 || nb == 3)
+	temp = 2;
+	if (nb == 0)
 		return (0);
 	if (nb == 1)
 		return (1);
-	while (temp <= nb / temp)
+	while (temp * temp <= nb)
 	{
-		if (temp == nb / temp)
+		if (temp * temp == nb)
 			return (temp);
 		temp++;
 	}
+	return (0);
+}
+
+int	main(int argc, char *argv[])
+{
+	if (argc == 2)
+		printf("%d", ft_sqrt(atoi(argv[1])));
 	return (0);
 }
