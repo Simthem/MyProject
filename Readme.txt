@@ -1,3 +1,8 @@
+A partir de la fin du jour 7 (c'est-a-dire de l'exercice whitespace) jusqu'a la fin du jour 12, ce sont des exos non validés.
+Donc SEULEMENT des pistes de réflexion et en aucun cas une garantie de conformité face aux exigences et a la norme de 42.
+
+-----------------------------------------------------------------------------
+
 ##	Commit + Push
 
 ## git init
