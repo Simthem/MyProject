@@ -19,11 +19,11 @@ int		ft_atoi(char *str)
 	i = 0;
 	j = 1;
 	k = 0;
-	if (str[i] == '-')
-		j *= -1;
-	if (str[i] == '-' || str[i] == '+')
+	while (str[i] < 33)
 		i++;
-	while (str[i] == 33)
+	if (str[i] == '-' || str[i] == '+')
+		if (str[i] == '-')
+			j *= -1;
 		i++;
 	if (!(str[i] >= 48 && str[i] <= 57))
 		return (0);
