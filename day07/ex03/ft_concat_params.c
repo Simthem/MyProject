@@ -15,7 +15,7 @@
 
 int		ft_number_char_params(int argc, char *argv[])
 {
-	int i;
+    int i;
 	int j;
 	int count;
 
@@ -66,11 +66,11 @@ int		ft_strparams(char *str, int argc, char *argv[], int k)
 
 char	*ft_concat_params(int argc, char **argv)
 {
-	char	*str;
-	int	count;
-	int	k;
-	int	*p;
-	int	var;
+    char	*str;
+	int     count;
+	int     k;
+	int     *p;
+	int     var;
 
 	k = 0;
 	var = 0;
