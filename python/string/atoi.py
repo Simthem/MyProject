@@ -13,28 +13,27 @@ class Test(unittest.TestCase):
                 2**31 - 1
             )
 
-def atoi(str):
+def atoi(str1):
     i = 0;
     pos_neg = 1;
-    final_num = 0;
-   
-    while str[i] < chr(33):
+    result = 0;
+
+    while i < len(str1) and str1[i] < chr(33):
         i += 1;
-    if i < len(str) and (str[i] == '-' or str[i] == '+'):
-        if str[i] == '-':
+    if i < len(str1) and (str1[i] == '-' or str1[i] == '+'):
+        if str1[i] == '-':
             pos_neg *= -1;
         i += 1;
-    if i < len(str):
-        if not (str[i] >= chr(48) and str[i] <= chr(57)):
-            return (0);
-    while i < len(str) and str[i] >= chr(48) and str[i] <= chr(57):
-        final_num = final_num * 10 + int(str[i]);
+    if i < len(str1) and not (str1[i] >= '0' and str1[i] <= '9'):
+        return (0);
+    while i < len(str1) and str1[i] >= '0' and str1[i] <= '9':
+        result = result * 10 + int(str1[i]);
         i += 1;
-    if final_num * pos_neg > 2**31 - 1:
-        return (2**31 - 1);
-    if final_num * pos_neg < -2**31:
-        return (-2**31);
-    return (final_num * pos_neg);
+    if result * pos_neg > 2**31 - 1:
+        return 2**31 - 1;
+    elif result * pos_neg < -2**31:
+        return -2**31;
+    return result * pos_neg;
              
 
 if __name__ == "__main__":

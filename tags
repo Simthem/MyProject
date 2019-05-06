@@ -1,0 +1,289 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_SIZE	day12/ex00/includes/ft_fct.h	/^# define BUF_SIZE /;"	d
+BUF_SIZE	day12/ex01/includes/ft_fct.h	/^# define BUF_SIZE /;"	d
+CC	day12/ex00/Makefile	/^CC = gcc$/;"	m
+CC	day12/ex01/Makefile	/^CC = gcc$/;"	m
+CORNER_BL	rush00/ex00/rush00.c	/^#define CORNER_BL /;"	d	file:
+CORNER_BL	rush00/ex00/rush01.c	/^#define CORNER_BL /;"	d	file:
+CORNER_BL	rush00/ex00/rush02.c	/^#define CORNER_BL /;"	d	file:
+CORNER_BL	rush00/ex00/rush03.c	/^#define CORNER_BL /;"	d	file:
+CORNER_BL	rush00/ex00/rush04.c	/^#define CORNER_BL /;"	d	file:
+CORNER_BR	rush00/ex00/rush00.c	/^#define CORNER_BR /;"	d	file:
+CORNER_BR	rush00/ex00/rush01.c	/^#define CORNER_BR /;"	d	file:
+CORNER_BR	rush00/ex00/rush02.c	/^#define CORNER_BR /;"	d	file:
+CORNER_BR	rush00/ex00/rush03.c	/^#define CORNER_BR /;"	d	file:
+CORNER_BR	rush00/ex00/rush04.c	/^#define CORNER_BR /;"	d	file:
+CORNER_TL	rush00/ex00/rush00.c	/^#define CORNER_TL /;"	d	file:
+CORNER_TL	rush00/ex00/rush01.c	/^#define CORNER_TL /;"	d	file:
+CORNER_TL	rush00/ex00/rush02.c	/^#define CORNER_TL /;"	d	file:
+CORNER_TL	rush00/ex00/rush03.c	/^#define CORNER_TL /;"	d	file:
+CORNER_TL	rush00/ex00/rush04.c	/^#define CORNER_TL /;"	d	file:
+CORNER_TR	rush00/ex00/rush00.c	/^#define CORNER_TR /;"	d	file:
+CORNER_TR	rush00/ex00/rush01.c	/^#define CORNER_TR /;"	d	file:
+CORNER_TR	rush00/ex00/rush02.c	/^#define CORNER_TR /;"	d	file:
+CORNER_TR	rush00/ex00/rush03.c	/^#define CORNER_TR /;"	d	file:
+CORNER_TR	rush00/ex00/rush04.c	/^#define CORNER_TR /;"	d	file:
+FLAGS	day10/ex00/Makefile	/^FLAGS = -Wall -Werror -Wextra$/;"	m
+FLAGS	day10/ex06/Makefile	/^FLAGS = -Wall -Werror -Wextra$/;"	m
+FLAGS	day12/ex00/Makefile	/^FLAGS = -Wall -Wextra -Werror$/;"	m
+FLAGS	day12/ex01/Makefile	/^FLAGS = -Wall -Wextra -Werror$/;"	m
+FLAGS	evalexpr/ex00/Makefile	/^FLAGS = -Wall -Wextra -Werror$/;"	m
+FT_EVALEXPR_H	evalexpr/ex00/includes/ft_evalexpr.h	/^# define FT_EVALEXPR_H$/;"	d
+FT_FCT_H	day12/ex00/includes/ft_fct.h	/^# define FT_FCT_H$/;"	d
+FT_FCT_H	day12/ex01/includes/ft_fct.h	/^# define FT_FCT_H$/;"	d
+FT_H	day10/ex06/ft.h	/^# define FT_H$/;"	d
+HEADER	day12/ex00/Makefile	/^HEADER = includes$/;"	m
+HEADER	day12/ex01/Makefile	/^HEADER = includes$/;"	m
+HEADER	evalexpr/ex00/Makefile	/^HEADER = includes\/*.h$/;"	m
+HORIZ_LINE	rush00/ex00/rush00.c	/^#define HORIZ_LINE /;"	d	file:
+HORIZ_LINE	rush00/ex00/rush01.c	/^#define HORIZ_LINE /;"	d	file:
+HORIZ_LINE	rush00/ex00/rush02.c	/^#define HORIZ_LINE /;"	d	file:
+HORIZ_LINE	rush00/ex00/rush03.c	/^#define HORIZ_LINE /;"	d	file:
+HORIZ_LINE	rush00/ex00/rush04.c	/^#define HORIZ_LINE /;"	d	file:
+LIB	day10/ex00/Makefile	/^LIB = includes\/*.h$/;"	m
+LIBA	day10/ex06/Makefile	/^LIBA = *.a$/;"	m
+LIBFT_H	entrainement_exam03/do_op/libft.h	/^# define LIBFT_H$/;"	d
+LIBH	day10/ex06/Makefile	/^LIBH = *.h$/;"	m
+NAME	day10/ex00/Makefile	/^NAME = libft.a$/;"	m
+NAME	day10/ex06/Makefile	/^NAME = do-op$/;"	m
+NAME	day12/ex00/Makefile	/^NAME = ft_display_file$/;"	m
+NAME	day12/ex01/Makefile	/^NAME = ft_cat$/;"	m
+NAME	evalexpr/ex00/Makefile	/^NAME = eval_expr$/;"	m
+OUTP	day10/ex00/Makefile	/^OUTP = *.o$/;"	m
+OUTP	day10/ex06/Makefile	/^OUTP = *.o$/;"	m
+OUTP	evalexpr/ex00/Makefile	/^OUTP = *.o$/;"	m
+SRC	day10/ex00/Makefile	/^SRC = srcs\/ft_putchar.c srcs\/ft_putstr.c srcs\/ft_strcmp.c srcs\/ft_strlen.c\\$/;"	m
+SRC	day10/ex06/Makefile	/^SRC = ft_putchar.c ft_atoi.c ft_putnbr.c ft_putstr.c ft_strlen.c main.c$/;"	m
+SRC	day12/ex00/Makefile	/^SRC = srcs\/*.c$/;"	m
+SRC	day12/ex01/Makefile	/^SRC = srcs\/*.c$/;"	m
+SRCS	evalexpr/ex00/Makefile	/^SRCS = srcs\/*.c$/;"	m
+Test	python/string/atoi.py	/^class Test(unittest.TestCase):$/;"	c
+VER_LINE	rush00/ex00/rush00.c	/^#define VER_LINE /;"	d	file:
+VER_LINE	rush00/ex00/rush01.c	/^#define VER_LINE /;"	d	file:
+VER_LINE	rush00/ex00/rush02.c	/^#define VER_LINE /;"	d	file:
+VER_LINE	rush00/ex00/rush03.c	/^#define VER_LINE /;"	d	file:
+VER_LINE	rush00/ex00/rush04.c	/^#define VER_LINE /;"	d	file:
+X	rush01/ex00/check_all.c	/^#define X /;"	d	file:
+X	rush01/ex00/main.c	/^#define X /;"	d	file:
+X	rush01/ex00/sudoku.c	/^#define X /;"	d	file:
+X	rush01/ex00/test.c	/^#define X /;"	d	file:
+alright	rush01/ex00/sudoku.c	/^int		alright(int grid[X][X], int line, int col, int nb)$/;"	f
+alright	rush01/ex00/test.c	/^int		alright(int grid[X][X], int line, int col, int nb)$/;"	f
+anagram	python/string/anagram.py	/^def anagram(str1, str2):$/;"	f
+atoi	python/string/atoi.py	/^def atoi(str):$/;"	f
+check_block	rush01/ex00/check_all.c	/^int		check_block(int grid[X][X], int begline_blo, int begcol_blo, int nb)$/;"	f
+check_block	rush01/ex00/test.c	/^int		check_block(int grid[X][X], int begline_blo, int begcol_blo, int nb)$/;"	f
+check_col	rush01/ex00/check_all.c	/^int		check_col(int grid[X][X], int col, int nb)$/;"	f
+check_col	rush01/ex00/test.c	/^int		check_col(int grid[X][X], int col, int nb)$/;"	f
+check_empty_place	rush01/ex00/check_all.c	/^int		check_empty_place(int grid[X][X])$/;"	f
+check_empty_place	rush01/ex00/test.c	/^int		check_empty_place(int grid[X][X])$/;"	f
+check_files	day12/ex01/srcs/main.c	/^int		check_files(char **argv, int ret, int fd, int i)$/;"	f
+check_line	rush01/ex00/check_all.c	/^int		check_line(int grid[X][X], int line, int nb)$/;"	f
+check_line	rush01/ex00/test.c	/^int		check_line(int grid[X][X], int line, int nb)$/;"	f
+check_substring	python/string/strStr/strStr.py	/^def check_substring(haystack, needle, i):$/;"	f
+display	day12/ex00/srcs/main.c	/^void	display(char *filename)$/;"	f
+eval_expr	evalexpr/ex00/srcs/eval_expr.c	/^int		eval_expr(char *expr)$/;"	f
+factors	evalexpr/ex00/srcs/eval_expr.c	/^int		factors(char **expr)$/;"	f
+fibonacci	python/string/fibonacci.py	/^def fibonacci(nb):$/;"	f
+find_empty_col	rush01/ex00/check_all.c	/^int		find_empty_col(int grid[X][X], int line)$/;"	f
+find_empty_col	rush01/ex00/test.c	/^int		find_empty_col(int grid[X][X], int line)$/;"	f
+ft_any	day10/ex03/ft_any.c	/^int		ft_any(char **tab, int (*f)(char*))$/;"	f
+ft_atoi	day03/ex08/ft_atoi.c	/^int		ft_atoi(char *str)$/;"	f
+ft_atoi	day05/ex02/ft_atoi.c	/^int		ft_atoi(char *str)$/;"	f
+ft_atoi	day10/ex06/ft_atoi.c	/^int		ft_atoi(char *str)$/;"	f
+ft_atoi	entrainement_exam01/ex08/ft_atoi.c	/^int		ft_atoi(char *str)$/;"	f
+ft_atoi	entrainement_exam03/add_prime_sum/add_prime_sum.c	/^int		ft_atoi(char *str)$/;"	f
+ft_atoi	entrainement_exam03/ft_atoi/ft_atoi.c	/^int		ft_atoi(char *str)$/;"	f
+ft_atoi	evalexpr/ex00/srcs/functions.c	/^int		ft_atoi(char **str)$/;"	f
+ft_atoi	rush00/ex00/main.c	/^int		ft_atoi(char *str)$/;"	f
+ft_concat_params	day07/ex03/ft_concat_params.c	/^char	*ft_concat_params(int argc, char **argv)$/;"	f
+ft_count_char	day07/ex04/ft_split_whitespaces.c	/^int		ft_count_char(char *str)$/;"	f
+ft_count_if	day10/ex04/ft_count_if.c	/^int		ft_count_if(char **tab, int (*f)(char*))$/;"	f
+ft_count_words	day07/ex04/ft_split_whitespaces.c	/^int		ft_count_words(char *str)$/;"	f
+ft_div_mod	day03/ex03/ft_div_mod.c	/^void	ft_div_mod(int a, int b, int *div, int *mod)$/;"	f
+ft_fibonacci	day04/ex04/ft_fibonacci.c	/^int	ft_fibonacci(int index)$/;"	f
+ft_find_blank	day07/ex04/ft_split_whitespaces.c	/^int		ft_find_blank(char c)$/;"	f
+ft_find_next_prime	day04/ex07/ft_find_next_prime.c	/^int		ft_find_next_prime(int nb)$/;"	f
+ft_first_verif	entrainement_exam03/union/union.c	/^void	ft_first_verif(char *dest, char *argv[], int *k, int count)$/;"	f
+ft_foreach	day10/ex01/ft_foreach.c	/^void	ft_foreach(int *tab, int lenght, void (*f)(int))$/;"	f
+ft_ft	day03/ex00/ft_ft.c	/^void	ft_ft(int *nbr)$/;"	f
+ft_generic	day09/ex00/ft_generic.c	/^void	ft_generic(void)$/;"	f
+ft_is_negative	day02/ex03/ft_is_negative.c	/^void	ft_is_negative(int n)$/;"	f
+ft_is_prime	day04/ex06/ft_is_prime.c	/^int		ft_is_prime(int nb)$/;"	f
+ft_is_prime	day04/ex07/ft_find_next_prime.c	/^int		ft_is_prime(int nb)$/;"	f
+ft_is_prime	entrainement_exam03/add_prime_sum/add_prime_sum.c	/^int		ft_is_prime(int nb)$/;"	f
+ft_is_sort	day10/ex05/ft_is_sort.c	/^int		ft_is_sort(int *tab, int lenght, int (*f)(int, int))$/;"	f
+ft_iterative_factorial	day04/ex00/ft_iterative_factorial.c	/^int		ft_iterative_factorial(int nb)$/;"	f
+ft_iterative_power	day04/ex02/ft_iterative_power.c	/^int		ft_iterative_power(int nb, int power)$/;"	f
+ft_map	day10/ex02/ft_map.c	/^int		*ft_map(int *tab, int lenght, int (*f)(int))$/;"	f
+ft_mod_div	day10/ex06/main.c	/^void	ft_mod_div(char *argv)$/;"	f
+ft_number_char_params	day07/ex03/ft_concat_params.c	/^int		ft_number_char_params(int argc, char *argv[])$/;"	f
+ft_ope	entrainement_exam03/do_op/main.c	/^int		ft_ope(char *argv, int p1, int p3)$/;"	f
+ft_print	day02/ex04/ft_print_comb.c	/^void	ft_print(int a, int b, int c)$/;"	f
+ft_print	sastantua/ex00/sastantua.c	/^void	ft_print(int size, int floor, int nbfloors)$/;"	f
+ft_print_alphabet	day02/ex00/ft_print_alphabet.c	/^void	ft_print_alphabet(void)$/;"	f
+ft_print_comb	day02/ex04/ft_print_comb.c	/^void	ft_print_comb(void)$/;"	f
+ft_print_comb2	day02/ex05/ft_print_comb2.c	/^void	ft_print_comb2(void)$/;"	f
+ft_print_numbers	day02/ex02/ft_print_numbers.c	/^void	ft_print_numbers(void)$/;"	f
+ft_print_reverse_alphabet	day02/ex01/ft_print_reverse_alphabet.c	/^void	ft_print_reverse_alphabet(void)$/;"	f
+ft_putchar	day02/ex04/ft_print_comb.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	day06/ex00/ft_putchar.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	day10/ex06/ft_putchar.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	day12/ex00/srcs/ft_putchar.c	/^int		ft_putchar(char c)$/;"	f
+ft_putchar	day12/ex01/srcs/ft_putchar.c	/^int		ft_putchar(char c)$/;"	f
+ft_putchar	entrainement_exam01/ex01/ft_putnbr.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	entrainement_exam03/add_prime_sum/add_prime_sum.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	evalexpr/ex00/srcs/functions.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	rush00/ex00/ft_putchar.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	rush01/ex00/main.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	rush01/ex00/test.c	/^void	ft_putchar(char c)$/;"	f
+ft_putchar	sastantua/ex00/sastantua.c	/^void	ft_putchar(char c)$/;"	f
+ft_putnbr	day02/ex06/ft_putnbr.c	/^void	ft_putnbr(int nb)$/;"	f
+ft_putnbr	day05/ex01/ft_putnbr.c	/^void	ft_putnbr(int nb)$/;"	f
+ft_putnbr	day10/ex06/ft_putnbr.c	/^void	ft_putnbr(int nb)$/;"	f
+ft_putnbr	entrainement_exam01/ex01/ft_putnbr.c	/^void	ft_putnbr(int nb)$/;"	f
+ft_putnbr	entrainement_exam03/add_prime_sum/add_prime_sum.c	/^void	ft_putnbr(nb)$/;"	f
+ft_putnbr	evalexpr/ex00/srcs/functions.c	/^void	ft_putnbr(int nb)$/;"	f
+ft_putstr	day03/ex05/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	day05/ex00/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	day06/ex00/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	day06/ex04/ft_sort_params.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	day10/ex06/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	day12/ex00/srcs/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	day12/ex01/srcs/ft_putstr.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	entrainement_exam03/inter/inter.c	/^void	ft_putstr(char *str)$/;"	f
+ft_putstr	entrainement_exam03/union/union.c	/^void	ft_putstr(char *str)$/;"	f
+ft_range	day07/ex01/ft_range.c	/^int		*ft_range(int min, int max)$/;"	f
+ft_recursive_factorial	day04/ex01/ft_recursive_factorial.c	/^int		ft_recursive_factorial(int nb)$/;"	f
+ft_recursive_power	day04/ex03/ft_recursive_power.c	/^int		ft_recursive_power(int nb, int power)$/;"	f
+ft_result	day10/ex06/main.c	/^int		ft_result(int *p1, char *p2, int *p3, int result)$/;"	f
+ft_sort_params	day06/ex04/ft_sort_params.c	/^void	ft_sort_params(int argc, char *argv[])$/;"	f
+ft_split_whitespaces	day07/ex04/ft_split_whitespaces.c	/^char	**ft_split_whitespaces(char *str)$/;"	f
+ft_sqrt	day04/ex05/ft_sqrt.c	/^int		ft_sqrt(int nb)$/;"	f
+ft_str_is_alpha	day05/ex11/ft_str_is_alpha.c	/^int		ft_str_is_alpha(char *str)$/;"	f
+ft_str_is_lowercase	day05/ex13/ft_str_is_lowercase.c	/^int		ft_str_is_lowercase(char *str)$/;"	f
+ft_str_is_numeric	day05/ex12/ft_str_is_numeric.c	/^int		ft_str_is_numeric(char *str)$/;"	f
+ft_str_is_printable	day05/ex15/ft_str_is_printable.c	/^int		ft_str_is_printable(char *str)$/;"	f
+ft_str_is_uppercase	day05/ex14/ft_str_is_uppercase.c	/^int		ft_str_is_uppercase(char *str)$/;"	f
+ft_strcapitalize	day05/ex10/ft_strcapitalize.c	/^char	*ft_strcapitalize(char *str)$/;"	f
+ft_strcat	day05/ex16/ft_strcat.c	/^char	*ft_strcat(char *dest, char *src)$/;"	f
+ft_strcmp	day05/ex06/ft_strcmp.c	/^int		ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strcmp	day06/ex00/ft_strcmp.c	/^int		ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strcmp	day06/ex04/ft_sort_params.c	/^int		ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strcmp	entrainement_exam03/ft_strcmp/ft_strcmp.c	/^int		ft_strcmp(char *s1, char *s2)$/;"	f
+ft_strcpy	day05/ex03/ft_strcpy.c	/^char	*ft_strcpy(char *dest, char *src)$/;"	f
+ft_strcpy	day07/ex00/ft_strdup.c	/^char	*ft_strcpy(char *dest, char *src)$/;"	f
+ft_strcpy	entrainement_exam03/ft_strcpy/ft_strcpy.c	/^char	*ft_strcpy(char *s1, char *s2)$/;"	f
+ft_strdup	day07/ex00/ft_strdup.c	/^char	*ft_strdup(char *src)$/;"	f
+ft_strdup	entrainement_exam03/ft_strdup/ft_strdup.c	/^char	*ft_strdup(char *src)$/;"	f
+ft_strlcat	day05/ex18/ft_strlcat.c	/^unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)$/;"	f
+ft_strlen	day03/ex06/ft_strlen.c	/^int		ft_strlen(char *str)$/;"	f
+ft_strlen	day05/ex18/ft_strlcat.c	/^int				ft_strlen(char *dest)$/;"	f
+ft_strlen	day06/ex00/ft_strlen.c	/^int		ft_strlen(char *str)$/;"	f
+ft_strlen	day10/ex06/ft_strlen.c	/^int		ft_strlen(char *str)$/;"	f
+ft_strlowcase	day05/ex09/ft_strlowcase.c	/^char	*ft_strlowcase(char *str)$/;"	f
+ft_strncat	day05/ex17/ft_strncat.c	/^char	*ft_strncat(char *dest, char *src, int nb)$/;"	f
+ft_strncmp	day05/ex07/ft_strncmp.c	/^int		ft_strncmp(char *s1, char *s2, unsigned int n)$/;"	f
+ft_strncpy	day05/ex04/ft_strncpy.c	/^char	*ft_strncpy(char *dest, char *src, unsigned int n)$/;"	f
+ft_strparams	day07/ex03/ft_concat_params.c	/^int		ft_strparams(char *str, int argc, char *argv[], int k)$/;"	f
+ft_strrev	day03/ex07/ft_strrev.c	/^char	*ft_strrev(char *str)$/;"	f
+ft_strrev	entrainement_exam03/ft_strrev/ft_strrev.c	/^char	*ft_strrev(char *str)$/;"	f
+ft_strstr	day05/ex05/ft_strstr.c	/^char	*ft_strstr(char *str, char *to_find)$/;"	f
+ft_strupcase	day05/ex08/ft_strupcase.c	/^char	*ft_strupcase(char *str)$/;"	f
+ft_swap	day03/ex02/ft_swap.c	/^void	ft_swap(int *a, int *b)$/;"	f
+ft_swap	day06/ex00/ft_swap.c	/^void	ft_swap(int *a, int *b)$/;"	f
+ft_takes_place	day09/ex01/ft_takes_place.c	/^void	ft_takes_place(int hour)$/;"	f
+ft_ultimate_div_mod	day03/ex04/ft_ultimate_div_mod.c	/^void	ft_ultimate_div_mod(int *a, int *b)$/;"	f
+ft_ultimate_ft	day03/ex01/ft_ultimate_ft.c	/^void	ft_ultimate_ft(int *********nbr)$/;"	f
+ft_ultimate_range	day07/ex02/ft_ultimate_range.c	/^int		ft_ultimate_range(int **range, int min, int max)$/;"	f
+ft_verif	entrainement_exam03/inter/inter.c	/^int		ft_verif(char *dest, char *argv)$/;"	f
+ft_verif	entrainement_exam03/union/union.c	/^int		ft_verif(char *dest, char *argv)$/;"	f
+is_power_of_2	entrainement_exam03/is_power_of_2/is_power_of_2.c	/^int		is_power_of_2(unsigned int n)$/;"	f
+jewels_and_stones	python/string/jewels_and_stones.py	/^def jewels_and_stones(J, S):$/;"	f
+main	day02/ex04/ft_print_comb.c	/^int	main(void)$/;"	f
+main	day04/ex05/ft_sqrt.c	/^int	main(int argc, char *argv[])$/;"	f
+main	day04/ex06/ft_is_prime.c	/^int	main(int argc, char *argv[])$/;"	f
+main	day05/ex04/ft_strncpy.c	/^int	main(void)$/;"	f
+main	day06/ex01/ft_print_program_name.c	/^int		main(int argc, char *argv[])$/;"	f
+main	day06/ex02/ft_print_params.c	/^int		main(int argc, char *argv[])$/;"	f
+main	day06/ex03/ft_rev_params.c	/^int		main(int argc, char *argv[])$/;"	f
+main	day06/ex04/ft_sort_params.c	/^int		main(int argc, char *argv[])$/;"	f
+main	day07/ex03/ft_concat_params.c	/^int	main(int argc, char *argv[])$/;"	f
+main	day10/ex06/main.c	/^int		main(int argc, char *argv[])$/;"	f
+main	day12/ex00/srcs/main.c	/^int		main(int argc, char *argv[])$/;"	f
+main	day12/ex01/srcs/main.c	/^int		main(int argc, char **argv)$/;"	f
+main	entrainement_exam01/ex01/ft_putnbr.c	/^int		main(void)$/;"	f
+main	entrainement_exam01/ex08/ft_atoi.c	/^int		main(void)$/;"	f
+main	entrainement_exam03/add_prime_sum/add_prime_sum.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/alpha_mirror/alpha_mirror.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/do_op/main.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/first_word/first_word.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/ft_atoi/ft_atoi.c	/^int		main(void)$/;"	f
+main	entrainement_exam03/ft_strcpy/ft_strcpy.c	/^int		main(void)$/;"	f
+main	entrainement_exam03/ft_strdup/ft_strdup.c	/^int		main(void)$/;"	f
+main	entrainement_exam03/ft_strrev/ft_strrev.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/inter/inter.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/is_power_of_2/is_power_of_2.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/last_word/last_word.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/max/max.c	/^int		main(void)$/;"	f
+main	entrainement_exam03/repeat_alpha/repeat_alpha.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/rev_print/rev_print.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/rot_13/rot_13.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/rotone/rotone.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/search_and_replace/search_and_replace.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/ulstr/ulstr.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/union/union.c	/^int		main(int argc, char *argv[])$/;"	f
+main	entrainement_exam03/wdmatch/wdmatch.c	/^int		main(int argc, char *argv[])$/;"	f
+main	evalexpr/ex00/srcs/main.c	/^int		main(int ac, char **av)$/;"	f
+main	rush00/ex00/main.c	/^int		main(int argc, char **argv)$/;"	f
+main	rush01/ex00/main.c	/^int		main(void)$/;"	f
+main	rush01/ex00/test.c	/^int		main(void)$/;"	f
+main	sastantua/ex00/sastantua.c	/^int 	main(void)$/;"	f
+match	matchnmatch/ex00/match.c	/^int		match(char *s1, char *s2)$/;"	f
+max	entrainement_exam03/max/max.c	/^int		max(int *tab, unsigned int len)$/;"	f
+max_prof	python/string/best_time_to_buy.py	/^def max_prof(arr):$/;"	f
+nmatch	matchnmatch/ex01/nmatch.c	/^int		nmatch(char *s1, char *s2)$/;"	f
+number	evalexpr/ex00/srcs/eval_expr.c	/^int		number(char **expr)$/;"	f
+nums	python/string/shortest_unsorted_continuous_subarray.py	/^nums = [2, 6, 6, 8, 10, 9, 15]$/;"	v
+palindrome	python/string/palindrome.py	/^def palindrome(str):$/;"	f
+prices	python/string/best_time_to_buy.py	/^prices = [7,1,5,3,6,4];$/;"	v
+prices	python/string/best_time_to_buy.py	/^prices = [7,6,4,3,1];$/;"	v
+print_repeat	entrainement_exam03/repeat_alpha/repeat_alpha.c	/^void	print_repeat(char *argv[], int i)$/;"	f
+printline	rush00/ex00/rush00.c	/^void	printline(int x, char a, char b, char c)$/;"	f
+printline	rush00/ex00/rush01.c	/^void	printline(int x, char a, char b, char c)$/;"	f
+printline	rush00/ex00/rush02.c	/^void	printline(int x, char a, char b, char c)$/;"	f
+printline	rush00/ex00/rush03.c	/^void	printline(int x, char a, char b, char c)$/;"	f
+printline	rush00/ex00/rush04.c	/^void	printline(int x, char a, char b, char c)$/;"	f
+re	python/string/palindrome.py	/^import re;$/;"	i
+reverse_vowels	python/string/reverse_vowels.py	/^def reverse_vowels(str1):$/;"	f
+rush	rush00/ex00/rush00.c	/^void	rush(int x, int y)$/;"	f
+rush	rush00/ex00/rush01.c	/^void	rush(int x, int y)$/;"	f
+rush	rush00/ex00/rush02.c	/^void	rush(int x, int y)$/;"	f
+rush	rush00/ex00/rush03.c	/^void	rush(int x, int y)$/;"	f
+rush	rush00/ex00/rush04.c	/^void	rush(int x, int y)$/;"	f
+sastantua	sastantua/ex00/sastantua.c	/^void	sastantua(int size)$/;"	f
+shortest_unsorted_continuous_subarray	python/string/shortest_unsorted_continuous_subarray.py	/^def shortest_unsorted_continuous_subarray(nums):$/;"	f
+sort_array_parity	python/string/sort_array_parity.py	/^def sort_array_parity(tab):$/;"	f
+sort_array_parityII	python/string/sort_array_parityII.py	/^def sort_array_parityII(tab):$/;"	f
+str1	python/string/reverse_vowels.py	/^str1 = "leetcode";$/;"	v
+str1	python/string/uncommon_words.py	/^str1 = "this apple is sweet";$/;"	v
+str2	python/string/uncommon_words.py	/^str2 = "this apple is sour";$/;"	v
+str_str	python/string/strStr/strStr.py	/^def str_str(haystack, needle):$/;"	f
+str_str	python/string/strStr/strStr2.py	/^def str_str(haystack, needle):$/;"	f
+sudoku	rush01/ex00/sudoku.c	/^int		sudoku(int grid[X][X])$/;"	f
+sudoku	rush01/ex00/test.c	/^int		sudoku(int grid[X][X])$/;"	f
+sudoku_print	rush01/ex00/main.c	/^void	sudoku_print(int grid[X][X])$/;"	f
+sudoku_print	rush01/ex00/test.c	/^void	sudoku_print(int grid[X][X])$/;"	f
+sum	evalexpr/ex00/srcs/eval_expr.c	/^int		sum(char **expr)$/;"	f
+swap	python/string/sort_array_parityII.py	/^def swap(int1, int2):$/;"	f
+tab	python/string/sort_array_parity.py	/^tab = [];$/;"	v
+tab	python/string/sort_array_parityII.py	/^tab = [1, 47, 48, 56, 7, 92];$/;"	v
+test_max	python/string/atoi.py	/^    def test_max(self):$/;"	m	class:Test
+test_negativ	python/string/atoi.py	/^    def test_negativ(self):$/;"	m	class:Test
+uncommon_words	python/string/uncommon_words.py	/^def uncommon_words(str1, str2):$/;"	f
+unittest	python/string/atoi.py	/^import unittest$/;"	i
