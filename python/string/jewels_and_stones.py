@@ -1,16 +1,16 @@
 def jewels_and_stones(J, S):
-    hash_table = dict()
-    counter = 0
+    hashtable = dict();
+    counter = 0;
 
-    for letter in J:
-        if letter not in hash_table:
-            hash_table[letter] = 1
-        if letter in hash_table:
-            hash_table[letter] + 1
-    for letter in S:
-        if letter in hash_table:
-            counter += 1
+    for temp in J:
+        if temp not in hashtable:
+            hashtable[temp] = 1;
+        if hashtable[temp]:
+            hashtable[temp] += 1;
+    for temp in S:
+        if temp in hashtable and hashtable[temp]:
+            counter += 1;
+    return (counter);
 
-    return counter
 
-print(jewels_and_stones("aaA", "bbbaaAaA"))
+print(jewels_and_stones("aaAAAA", "bbbaaAaA"));

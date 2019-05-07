@@ -7,6 +7,7 @@ Donc SEULEMENT des pistes de réflexion et en aucun cas une garantie de conformi
 
 ## git init
 ## git add Readme.txt
+## git reset <file>
 ## git commit -m "Ajout de .."
 ## git remote add origin <source_de_destination>
 ## git push -u origin master
@@ -22,6 +23,7 @@ Donc SEULEMENT des pistes de réflexion et en aucun cas une garantie de conformi
 ## git clone <source> 			// récupération du dossier de travail
 ## git add . 				// ajouter tout un dossier
 ## git add file.txt 			// ajouter juste un fichier
+## git reset <file>             // retirer un fichier après un 'add' et avant 'commit'
 ## git commit -m "texte" 		// faire un commit
 ## git push origin master 		// push(er)
 ## git status 				// montre l'état de ton dossier, quels fichier ont été modif
