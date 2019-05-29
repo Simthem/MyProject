@@ -4,7 +4,7 @@ class Test(unittest.TestCase):
     def test_negativ(self):
         self.assertEqual(
                 atoi("-42"),
-                -4
+                -42
             ),
 
     def test_max(self):
