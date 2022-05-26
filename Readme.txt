@@ -33,3 +33,4 @@ Donc SEULEMENT des pistes de réflexion et en aucun cas une garantie de conformi
 ## git push origin nom_branch		// push la branch
 ## git branch -d nom_branch		// supprimer la branch en local
 ## git push origin --delete nom_branch 	// supprimer la branch sur le server
+## git config --global core.excludesFile ~/.gitignore  // add .gitignore file
